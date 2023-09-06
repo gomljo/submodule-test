@@ -3,6 +3,7 @@ package com.example.mainmodule.domain;
 import ch.qos.logback.core.joran.spi.NoAutoStart;
 import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -15,6 +16,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
+@Builder
 public class User {
 
     @Id
